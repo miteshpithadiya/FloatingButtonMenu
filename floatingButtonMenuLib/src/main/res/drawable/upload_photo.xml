@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright © Meditab Software Inc. 2014
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true">
+        <shape android:shape="oval">
+            <corners android:radius="25dp"/>
+            <stroke android:width="4dp" android:color="#0066cc"/>
+            <solid android:color="#4DBFE9"/>
+            <size
+                android:width="50dp"
+                android:height="50dp"/>
+        </shape>
+    </item>
+
+    <item
+        android:state_checked="false">
+        <shape android:shape="oval">
+            <corners android:radius="25dp"/>
+            <solid android:color="#AA4DBFE9"/>
+            <stroke android:width="4dp" android:color="#0066cc"/>
+            <size
+                android:width="50dp"
+                android:height="50dp"/>
+        </shape>
+    </item>
+
+</selector>
